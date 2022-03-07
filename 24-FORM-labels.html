@@ -1,29 +1,23 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>Contenido principal</title>
-</head>
-
-<body>
-  <main>
-    <article>
-      <h1>Título principal</h1>
-      <p>Introducción...</p>
-      <section>
-        <h2>Título 2...</h2>
-        <p>Texto...</p>
-      </section>
-      <section>
-        <h2>Título 2...</h2>
-        <p>Texto...</p>
-      </section>
-      <section>
-        <h2>Titulo 2...</h2>
-        <p>Texto...</p>
-      </section>
-    </article>
-  </main>
-</body>
-
+  <head>
+    <title>Ejemplo Formulario labels</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" id="nombre">
+      <br/><br/>
+      <label for="hombre">Hombre</label>
+      <input type="radio" name="sexo" id="hombre" value="h">
+      <br/>
+      <label for="mujer">Mujer</label>
+      <input type="radio" name="sexo" id="mujer" value="m">
+      <br>
+      <label for="otro">Otro</label>
+      <input type="radio" name="sexo" id="otro" value="o">
+      <br/>
+      <input type="submit" value="ENVIAR">
+    </form>
+  </body>
 </html>
